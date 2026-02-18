@@ -5,6 +5,38 @@ print("Hello world!")
 x = 2
 print(x)
 
+# Tipi di dato
+val = 123 #int
+vir = 3.5 #float
+stringa = "Questa è una stringa" #str
+vero = True #bool
+
+# Concatenare le stringhe
+eggs = "Meglio un uovo oggi..."
+bacon = "o una gallina domani?"
+frase_intera = eggs + " " + bacon
+print(frase_intera)
+
+# Escape delle doppie virgolette
+frase1 = "e Dante scrisse: \"Nel mezzo del cammin di nostra vita...\""
+#oppure
+frase2 = 'e Dante scrisse: "Nel mezzo del cammin di nostra vita..."'
+print(frase1)
+print(frase2)
+
+# Concatenare due dipi di dato diversi
+text = "La mia età è "
+age = 26
+text + age #Risulterà errore -> TypeError: can only concatenate str (not "int") to str
+text + str(age)
+
+# "Trasformare" un tipo di dato
+arance_per_sacco = "13" #str
+
+arance_per_sacco * 3 #output '131313'
+int(arance_per_sacco) * 3 #output 39
+float(age) #output 26.0
+
 # Operatori numerici
 somma = 8 + 5
 diff = 8 - 5
@@ -30,3 +62,5 @@ print(floor_division)
 x = 34
 isinstance(x, int) #output True
 isinstance(x, str) #output False
+
+# Operatori di comparazione
