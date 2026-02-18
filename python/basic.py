@@ -64,3 +64,24 @@ isinstance(x, int) #output True
 isinstance(x, str) #output False
 
 # Operatori di comparazione
+5 == 5 #Uguale
+5 != 6 #Non uguale
+5 < 6 #Minore di
+6 > 5 #Maggiore di
+5 <= 6 #Minore o uguale di
+6 >= 5 #Maggiore o uguale di
+
+# Operatori Booleani (AND, OR, NOT)
+# AND entrambe le parti devono essere VERE per dare TRUE
+21 > 1 and 3 < 5 #True
+22 == 22 and 1 > 2 #False
+2 < 1 and "asd" == "asd" #False
+23 == 15 and 33 != 33 #False
+# OR almeno una parte deve essere VERA oer dare TRUE
+25 >= 25 or 23 <= 25 #True
+"io" == "io" or "io" == "robot" #True
+4 == 5 or 5 == 6 #False
+
+# NOT se una comparazione risulta non True sarà chiaramente False, e viceversa
+not "io" == "robot" #True
+not 3 == 3 #False
