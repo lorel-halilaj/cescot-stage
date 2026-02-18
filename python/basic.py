@@ -27,7 +27,7 @@ print(frase2)
 # Concatenare due dipi di dato diversi
 text = "La mia età è "
 age = 26
-text + age #Risulterà errore -> TypeError: can only concatenate str (not "int") to str
+# text + age Risulterà errore -> TypeError: can only concatenate str (not "int") to str
 text + str(age)
 
 # "Trasformare" un tipo di dato
@@ -85,3 +85,28 @@ isinstance(x, str) #output False
 # NOT se una comparazione risulta non True sarà chiaramente False, e viceversa
 not "io" == "robot" #True
 not 3 == 3 #False
+
+# IF
+if age >= 18:
+    print("Sei maggiorenne")
+
+age = 16
+if age >= 18:
+    print("Sei maggiorenne")
+
+# ELSE
+if age >= 18:
+    print("Sei maggiorenne")
+else:
+    print("Sei minorenne")
+
+# ELSE IF
+age = 18
+license = False
+
+if age >= 18 and license == True:
+    print("Puoi noleggiare un auto!")
+elif age >= 18 and license == False:
+    print("Fatti prima la patente!")
+else:
+    print("Ritorna fra qualche anno...")
