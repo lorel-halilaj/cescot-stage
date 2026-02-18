@@ -110,3 +110,38 @@ elif age >= 18 and license == False:
     print("Fatti prima la patente!")
 else:
     print("Ritorna fra qualche anno...")
+
+# Ciclo WHILE
+i = 0
+while i <= 10:
+    print(i)
+    i += 1
+
+# Ciclo infinito
+#run = True
+#while run:
+#    print(i)
+#    i += 1
+
+# BREAK
+run = True
+stop = 100
+counter = 0
+
+while run:
+    print(counter)
+    counter += 1
+    if counter > stop:
+        print("Sto uscendo dal loop...")
+        break
+
+# CONTINUE
+skip = 5
+counter = 0
+
+while counter < 10:
+    counter += 1
+    if counter == skip:
+        print("Skip " + str(skip))
+        continue
+    print(counter)
