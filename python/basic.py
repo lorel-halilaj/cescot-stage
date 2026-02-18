@@ -27,7 +27,7 @@ print(frase2)
 # Concatenare due dipi di dato diversi
 text = "La mia età è "
 age = 26
-# text + age Risulterà errore -> TypeError: can only concatenate str (not "int") to str
+# text + age darà errore -> TypeError: can only concatenate str (not "int") to str
 text + str(age)
 
 # "Trasformare" un tipo di dato
