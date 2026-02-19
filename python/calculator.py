@@ -4,7 +4,6 @@ welcome_message = "Benvenuto/a! Questa è un'applicazione che ti permetterà di 
 
 while True:
     print(welcome_message)
-
     action = input("\nDigita la voce desiderata: ")
 
     if action == "1":
@@ -43,10 +42,11 @@ while True:
         print("Il risultato è: " + str(sqrt(a)))
 
     elif action == "ESC" or action == "esc":
-        print("Programma chiuso. Arrivederci!")
+        print("Applicazione in chiusura. Arrivederci!")
         break
 
     new_action = input("\nDesideri continuare ad utilizzare l'Applicazione? S/N ")
+    
     if new_action == "S" or new_action == "s":
         print("Sto tornando al menù principale!\n")
         continue
