@@ -179,7 +179,7 @@ def say_my_name():
 
 def addizione(a, b, c=0):
     """
-    Questa funzione prende due o tre argomenti, a e b e c e restituisce la loro somma.
+    Questa funzione prende due o tre argomenti, a, b e c(facoltativa) e restituisce la loro somma.
 
     :param a: Primo numero da sommare
     :param b: Secondo numero da sommare
