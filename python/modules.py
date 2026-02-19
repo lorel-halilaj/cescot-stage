@@ -1,5 +1,6 @@
-import random # questo programma manda in output 10 numeri pseudo-casuali tra 1 e 50
+import random, math
 
+# Questo programma manda in output 10 numeri pseudo-casuali tra 1 e 50
 ran = random.random()
 print(ran)
 
@@ -17,3 +18,17 @@ lista = ['Italia', 'Francia', 'Spagna', 'Portogallo']
 
 ran_state = random.choice(lista)
 print(ran_state)
+
+# Radice quadrata
+math.sqrt(25) #output 5
+
+# Numero elevato alla potenza
+math.pow(10, 2) #output 100
+
+# Esponenziale e^x
+math.exp(1)
+
+# Arrotondamento
+math.ceil(33.23) #per eccesso
+math.floor(23.532) #per difetto
+
