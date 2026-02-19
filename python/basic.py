@@ -167,3 +167,27 @@ for i in range(2, 11, 2):
 
 for countdouwn in range(10, -1, -1):
     print(countdouwn)
+
+# Funzioni
+# Definizione della funzione
+def say_my_name():
+    name = input("Come ti chiami? ")
+    print("Benvenut* ", name)
+
+# Chiamata della funzione
+# say_my_name()
+
+def addizione(a, b, c=0):
+    """
+    Questa funzione prende due o tre argomenti, a e b e c e restituisce la loro somma.
+
+    :param a: Primo numero da sommare
+    :param b: Secondo numero da sommare
+    :param c: Terzo numero da sommare (facoltativo)
+    Return: 
+        Stringa che contiene il risultato della somma dei parametri
+    """
+    risultato = a + b + c
+    print("Il risultato dell'addizione è " + str(risultato))
+
+addizione(51, 3)
