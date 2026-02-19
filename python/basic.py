@@ -156,3 +156,14 @@ while counter < 10:
         print("Skip " + str(skip))
         continue
     print(counter)
+
+# FOR
+for i in range (11):
+    print(i)
+
+# Funzione range(start, stop, step)
+for i in range(2, 11, 2):
+    print(i)
+
+for countdouwn in range(10, -1, -1):
+    print(countdouwn)
