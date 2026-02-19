@@ -1,4 +1,4 @@
-import random, math, datetime
+import random, math, datetime, platform
 
 # RANDOM
 # Questo programma manda in output 10 numeri pseudo-casuali tra 1 e 50
@@ -49,3 +49,12 @@ print(f"{type(dt)}: {dt}")
 # Rappresentare una durata di tempo
 td = datetime.timedelta(days=5, hours=7, minutes=30, seconds=2)
 print(f"{type(td)}: {td}")
+
+# PLATFORM
+#Questo modulo fornisce una serie di metodi per ottenere informazioni sul sistema operativo
+platform.system()
+platform.machine()
+platform.processor()
+platform.architecture()
+platform.python_version()
+
