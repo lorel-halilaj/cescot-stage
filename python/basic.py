@@ -191,3 +191,22 @@ def addizione(a, b, c=0):
     print("Il risultato dell'addizione è " + str(risultato))
 
 addizione(51, 3)
+
+def media(valori):
+    """
+    Calcola la media dei valori forniti nella lista
+    Args:
+        valori (list): una lista di numeri
+
+    Returns:
+        float: la media dei numeri nella lista
+    """
+    somma = 0
+    for valore in valori:
+        somma += valore
+    media = somma / len(valori)
+    return media
+
+numeri = [10, 20, 30, 40, 50]
+print("La media dei numeri è: " + str(media(numeri)))
+
