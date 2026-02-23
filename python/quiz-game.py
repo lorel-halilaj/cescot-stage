@@ -1,7 +1,6 @@
-welcome_message = "Welcome to the Quiz Game!"
 score = 0
 
-print(welcome_message)
+print("Welcome to the Quiz Game!")
 while True:
     action = input("\nChoose one of the following topics and let's start the game!\n1. Animals\n(Other topics are coming soon!)\nEnter the number of the topic chosen: ")
 
