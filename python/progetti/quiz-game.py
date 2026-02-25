@@ -102,5 +102,3 @@ while True:
     else:
         score = 0
         continue
-
-    
