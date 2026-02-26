@@ -1,5 +1,6 @@
 """
-Scrivi un programma che chieda all'utente una stringa composta da un solo carattere e dica se si tratta di una vocale oppure no.
+Scrivi un programma che chieda all'utente una stringa composta da un
+solo carattere e dica se si tratta di una vocale oppure no.
 
 """
 

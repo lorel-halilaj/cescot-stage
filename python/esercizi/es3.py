@@ -1,5 +1,6 @@
 """
-Scrivi un programma che, data una lista di numeri, fornisca in output il maggiore tra tutti gli elementi della lista.
+Scrivi un programma che, data una lista di numeri,
+fornisca in output il maggiore tra tutti gli elementi della lista.
 
 """
 def maggiore_list(numbers):
