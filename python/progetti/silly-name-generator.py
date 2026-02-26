@@ -13,7 +13,7 @@ while True:
     last_name = random.choice(last_names)
 
     print("\n")
-    print(f"{first_name} {last_name}", file=sys.stderr)
+    print(f"> {first_name} {last_name}", file=sys.stderr)
     print("\n")
 
     try_again = input("Press ENTER to generate a new silly name or enter N to exit the generator ")
