@@ -1,6 +1,7 @@
 import sys, random
 
-print("Welcome to the Silly Name Generator!\nThis program will generate a random silly name for you")
+print("Welcome to the Silly Name Generator!\n")
+print("This program will generate a random silly name for you")
 
 first_names = ("Portabella", "Fifa", "Maybelline", "Phelony", "Spicy", "Birdella", "Candida", "Slayer", "Buddy Bear", "Christop", "Chip", "Everest", "Omega")
 last_names = ("Bacon", "Beefman", "Onions", "Sweetman", "Peacock", "Baldhead", "Giggle", "Jumble", "Bottoms")
