@@ -231,3 +231,36 @@ for el in primi:
         print (str(el) + " Match!")
     else:
         print(el)
+
+# aggiungere singoli elementi
+spesa = ["riso", "pasta", "pollo"]
+spesa.append("sapone")
+print(spesa)
+
+# aggiungere elementi da una seconda lista
+spesa_extra = ["fogli A4", "rasoio"]
+spesa.extend(spesa_extra)
+print(spesa)
+
+# ordinare gli elementi
+alfabeto = ["c", "l", "z", "p", "a"]
+alfabeto.sort()
+print(alfabeto)
+
+alfabeto.sort(reverse=True) # decrescente
+print(alfabeto)
+
+# ottenere l'indice di un elemento
+print(spesa.index("pollo"))
+
+# sostituire un elemento
+spesa[1] = "tacchino"
+print(spesa)
+
+# eliminare un elemento
+del spesa [0]
+print(spesa)
+
+# eliminare l'ultimo elemento della lista
+spesa.pop()
+print(spesa)
