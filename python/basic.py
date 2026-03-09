@@ -210,3 +210,24 @@ def media(valori):
 numeri = [10, 20, 30, 40, 50]
 print("La media dei numeri è: " + str(media(numeri)))
 
+# Liste
+my_list = [9.2, "pasta", 22, 44, "spaghetti"]
+new_list = ["calcio", "basket", my_list]
+print(new_list)
+
+# Indici
+print(my_list[1])
+print(my_list[-1]) # ultimo elemento della lista
+print(my_list[2:4]) # dall'elemento con indice 2 al 4 (il 4 non viene printato)
+print(my_list[2:]) # tutti dall'elemento con indice 2
+print(my_list[:4]) # tutti fino all'elemento con indice 4 (il 4 non viene printato)
+
+# Liste e cicli for
+primi = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
+match = 11
+
+for el in primi:
+    if el == match:
+        print (str(el) + " Match!")
+    else:
+        print(el)
