@@ -264,3 +264,14 @@ print(spesa)
 # eliminare l'ultimo elemento della lista
 spesa.pop()
 print(spesa)
+
+# Metodi delle stringhe
+name = "Lorel"
+age = 26
+print("Ciao, mi chiamo " + name + " e ho " + str(age) + " anni.")
+
+# f-string
+print(f"Ciao, mi chiamo {name} e ho {age} anni")
+
+x = 5
+print(f"Il quadrato di {x} è {x*x}")
